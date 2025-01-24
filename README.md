@@ -1,6 +1,6 @@
 # LoRA vs Full Fine-tuning: An Illusion of Equivalence
 
-This repository contains our implementation of the paper *"LoRA vs Full Fine-tuning: An Illusion of Equivalence"* (link=https://arxiv.org/abs/2410.21228). 
+This repository contains our implementation of the paper *"LoRA vs Full Fine-tuning: An Illusion of Equivalence"* (link=https://arxiv.org/abs/2410.21228), credits goes to the authors. 
 
 ## What We Did
 - **Singular Vector Extraction**: We extracted singular vectors from the query and value weights of both the base model (`W_0`) and the fine-tuned model (`W_tuned`) across all layers, as LoRA specifically modifies these weights.
